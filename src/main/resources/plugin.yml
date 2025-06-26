@@ -1,0 +1,19 @@
+name: GetHead
+version: '1.0-SNAPSHOT'
+main: me.ampura16.getHead.GetHeadMain
+api-version: '1.21'
+authors:
+  - Ampura16
+description: 获取正版玩家头颅的插件
+website: met6.top
+commands:
+  gethead:
+    description: 获取指定正版玩家的头颅
+    usage: /<gethead/head/gh> <玩家名称>
+    permission: gethead.use
+    permission-message: "&c你没有权限使用此命令."
+    aliases: [gh, head]
+permissions:
+  gethead.use:
+    description: 允许使用/gethead命令
+    default: true
